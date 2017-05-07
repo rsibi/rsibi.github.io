@@ -1,8 +1,9 @@
 ---
 layout: default
 modal-id: 1
+title: Goals, Leagues and Machine Learning
 date: 2014-07-18
-img: cabin.png
+img: football.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
