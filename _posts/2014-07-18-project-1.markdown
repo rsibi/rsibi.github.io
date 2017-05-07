@@ -5,9 +5,8 @@ title: Goals, Leagues and Machine Learning
 date: 2014-07-18
 img: football.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: January to March 2017
+category: Data Science
 tools: Python (Pandas, Matplotlib, scikitlearn)
 github-link: <a href="https://github.com/rsibi/Springboard/tree/master/Capstone%20Project/Final%20Report">Github Link</a>
 description: English Premier League is the major football league in England. The project aims at predicting the winner of each fixture every week using statistics about a team's past performance, recent form and home advantage.

@@ -1,12 +1,15 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: cake.png
+title: Digit Recognition using Deep Learning
+date: 2014-07-18
+img: idea.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+project-date: February 2017
+category: Data Science
+tools: Python, H20 (Deep Learning Framework)
+github-link: <a href="https://github.com/rsibi/digit-recognition-h20">Github Link</a>
+description: Deep Learning using the <a href="https://www.h2o.ai/download/">H20 Package</a> to classify digits in the MNIST dataset.
+             Even the most basic solution leads to a 96% accuracy in Kaggle.
 
 ---
