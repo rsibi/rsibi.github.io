@@ -3,11 +3,11 @@
 1 verbose cli   '/usr/bin/npm',
 1 verbose cli   'install',
 1 verbose cli   '-g',
-1 verbose cli   'live-server' ]
+1 verbose cli   'git-upload' ]
 2 info using npm@1.3.10
 3 info using node@v0.10.25
-4 verbose cache add [ 'live-server', null ]
-5 verbose cache add name=undefined spec="live-server" args=["live-server",null]
+4 verbose cache add [ 'git-upload', null ]
+5 verbose cache add name=undefined spec="git-upload" args=["git-upload",null]
 6 verbose parsed url { protocol: null,
 6 verbose parsed url   slashes: null,
 6 verbose parsed url   auth: null,
@@ -17,296 +17,212 @@
 6 verbose parsed url   hash: null,
 6 verbose parsed url   search: null,
 6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'live-server',
-6 verbose parsed url   path: 'live-server',
-6 verbose parsed url   href: 'live-server' }
-7 silly lockFile 9528180e-live-server live-server
-8 verbose lock live-server /home/sibi/.npm/9528180e-live-server.lock
-9 silly lockFile 9528180e-live-server live-server
-10 silly lockFile 9528180e-live-server live-server
-11 verbose addNamed [ 'live-server', '' ]
+6 verbose parsed url   pathname: 'git-upload',
+6 verbose parsed url   path: 'git-upload',
+6 verbose parsed url   href: 'git-upload' }
+7 silly lockFile 5f188a3e-git-upload git-upload
+8 verbose lock git-upload /home/sibi/.npm/5f188a3e-git-upload.lock
+9 silly lockFile 5f188a3e-git-upload git-upload
+10 silly lockFile 5f188a3e-git-upload git-upload
+11 verbose addNamed [ 'git-upload', '' ]
 12 verbose addNamed [ null, '*' ]
-13 silly lockFile 180ee697-live-server live-server@
-14 verbose lock live-server@ /home/sibi/.npm/180ee697-live-server.lock
-15 silly addNameRange { name: 'live-server', range: '*', hasData: false }
-16 verbose url raw live-server
-17 verbose url resolving [ 'https://registry.npmjs.org/', './live-server' ]
-18 verbose url resolved https://registry.npmjs.org/live-server
-19 info trying registry request attempt 1 at 16:40:11
-20 http GET https://registry.npmjs.org/live-server
-21 http 200 https://registry.npmjs.org/live-server
+13 silly lockFile 300042e1-git-upload git-upload@
+14 verbose lock git-upload@ /home/sibi/.npm/300042e1-git-upload.lock
+15 silly addNameRange { name: 'git-upload', range: '*', hasData: false }
+16 verbose url raw git-upload
+17 verbose url resolving [ 'https://registry.npmjs.org/', './git-upload' ]
+18 verbose url resolved https://registry.npmjs.org/git-upload
+19 info trying registry request attempt 1 at 19:00:38
+20 http GET https://registry.npmjs.org/git-upload
+21 http 200 https://registry.npmjs.org/git-upload
 22 silly registry.get cb [ 200,
 22 silly registry.get   { server: 'nginx/1.10.1',
 22 silly registry.get     'content-type': 'application/json',
-22 silly registry.get     'last-modified': 'Mon, 01 May 2017 05:44:04 GMT',
-22 silly registry.get     etag: '"5906cb24-a471"',
+22 silly registry.get     'last-modified': 'Sun, 15 Jan 2017 11:10:22 GMT',
+22 silly registry.get     etag: '"587b589e-3cb5"',
 22 silly registry.get     'cache-control': 'max-age=300',
-22 silly registry.get     'content-length': '42097',
+22 silly registry.get     'content-length': '15541',
 22 silly registry.get     'accept-ranges': 'bytes',
-22 silly registry.get     date: 'Sat, 06 May 2017 21:40:12 GMT',
+22 silly registry.get     date: 'Mon, 08 May 2017 00:00:39 GMT',
 22 silly registry.get     via: '1.1 varnish',
 22 silly registry.get     age: '0',
 22 silly registry.get     connection: 'keep-alive',
-22 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+22 silly registry.get     'x-served-by': 'cache-dfw1844-DFW',
 22 silly registry.get     'x-cache': 'MISS',
 22 silly registry.get     'x-cache-hits': '0',
-22 silly registry.get     'x-timer': 'S1494106812.946860,VS0,VE66',
+22 silly registry.get     'x-timer': 'S1494201639.059787,VS0,VE208',
 22 silly registry.get     vary: 'Accept-Encoding' } ]
-23 silly addNameRange number 2 { name: 'live-server', range: '*', hasData: true }
-24 silly addNameRange versions [ 'live-server',
-24 silly addNameRange   [ '0.1.0',
-24 silly addNameRange     '0.1.1',
-24 silly addNameRange     '0.2.0',
-24 silly addNameRange     '0.3.0',
-24 silly addNameRange     '0.4.0',
-24 silly addNameRange     '0.5.0',
-24 silly addNameRange     '0.6.0',
-24 silly addNameRange     '0.6.1',
-24 silly addNameRange     '0.6.2',
-24 silly addNameRange     '0.6.3',
-24 silly addNameRange     '0.6.4',
-24 silly addNameRange     '0.7.0',
-24 silly addNameRange     '0.7.1',
-24 silly addNameRange     '0.8.0',
-24 silly addNameRange     '0.8.1',
-24 silly addNameRange     '0.8.2',
-24 silly addNameRange     '0.9.0',
-24 silly addNameRange     '0.9.1',
-24 silly addNameRange     '0.9.2',
-24 silly addNameRange     '1.0.0',
+23 silly addNameRange number 2 { name: 'git-upload', range: '*', hasData: true }
+24 silly addNameRange versions [ 'git-upload',
+24 silly addNameRange   [ '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.0.4',
+24 silly addNameRange     '1.0.5',
+24 silly addNameRange     '1.0.6',
 24 silly addNameRange     '1.1.0',
-24 silly addNameRange     '1.2.0' ] ]
-25 verbose addNamed [ 'live-server', '1.2.0' ]
-26 verbose addNamed [ '1.2.0', '1.2.0' ]
-27 silly lockFile 1019340b-live-server-1-2-0 live-server@1.2.0
-28 verbose lock live-server@1.2.0 /home/sibi/.npm/1019340b-live-server-1-2-0.lock
-29 silly lockFile c7f48c5a-ive-server-live-server-1-2-0-tgz https://registry.npmjs.org/live-server/-/live-server-1.2.0.tgz
-30 verbose lock https://registry.npmjs.org/live-server/-/live-server-1.2.0.tgz /home/sibi/.npm/c7f48c5a-ive-server-live-server-1-2-0-tgz.lock
-31 verbose addRemoteTarball [ 'https://registry.npmjs.org/live-server/-/live-server-1.2.0.tgz',
-31 verbose addRemoteTarball   '4498644bbf81a66f18dd8dffdef61c4c1c374ca3' ]
-32 info retry fetch attempt 1 at 16:40:12
-33 verbose fetch to= /home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/tmp.tgz
-34 http GET https://registry.npmjs.org/live-server/-/live-server-1.2.0.tgz
-35 http 200 https://registry.npmjs.org/live-server/-/live-server-1.2.0.tgz
-36 verbose tar unpack /home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/tmp.tgz
-37 silly lockFile 3a5d677e-812059-0-675776377087459-package tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package
-38 verbose lock tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package /home/sibi/.npm/3a5d677e-812059-0-675776377087459-package.lock
-39 silly lockFile 0dc65a79-812059-0-675776377087459-tmp-tgz tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/tmp.tgz
-40 verbose lock tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/tmp.tgz /home/sibi/.npm/0dc65a79-812059-0-675776377087459-tmp-tgz.lock
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2' ] ]
+25 verbose addNamed [ 'git-upload', '1.1.2' ]
+26 verbose addNamed [ '1.1.2', '1.1.2' ]
+27 silly lockFile bc98d2e9-git-upload-1-1-2 git-upload@1.1.2
+28 verbose lock git-upload@1.1.2 /home/sibi/.npm/bc98d2e9-git-upload-1-1-2.lock
+29 silly lockFile e2725831--git-upload-git-upload-1-1-2-tgz https://registry.npmjs.org/git-upload/-/git-upload-1.1.2.tgz
+30 verbose lock https://registry.npmjs.org/git-upload/-/git-upload-1.1.2.tgz /home/sibi/.npm/e2725831--git-upload-git-upload-1-1-2-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/git-upload/-/git-upload-1.1.2.tgz',
+31 verbose addRemoteTarball   'c6d850168648e16adfa96e050171c411393bf529' ]
+32 info retry fetch attempt 1 at 19:00:39
+33 verbose fetch to= /home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/tmp.tgz
+34 http GET https://registry.npmjs.org/git-upload/-/git-upload-1.1.2.tgz
+35 http 200 https://registry.npmjs.org/git-upload/-/git-upload-1.1.2.tgz
+36 verbose tar unpack /home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/tmp.tgz
+37 silly lockFile 43798e17-39309-0-2879486922174692-package tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package
+38 verbose lock tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package /home/sibi/.npm/43798e17-39309-0-2879486922174692-package.lock
+39 silly lockFile d70472d1-39309-0-2879486922174692-tmp-tgz tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/tmp.tgz
+40 verbose lock tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/tmp.tgz /home/sibi/.npm/d70472d1-39309-0-2879486922174692-tmp-tgz.lock
 41 silly gunzTarPerm modes [ '755', '644' ]
 42 silly gunzTarPerm extractEntry package.json
-43 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+43 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
 44 silly gunzTarPerm extractEntry .npmignore
-45 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
-46 silly gunzTarPerm extractEntry README.md
-47 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
-48 silly gunzTarPerm extractEntry index.js
-49 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
-50 silly gunzTarPerm extractEntry live-server.js
-51 silly gunzTarPerm modified mode [ 'live-server.js', 509, 493 ]
-52 silly gunzTarPerm extractEntry .editorconfig
-53 silly gunzTarPerm modified mode [ '.editorconfig', 436, 420 ]
-54 silly gunzTarPerm extractEntry injected.html
-55 silly gunzTarPerm modified mode [ 'injected.html', 436, 420 ]
-56 silly gunzTarPerm extractEntry .travis.yml
-57 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
-58 silly gunzTarPerm extractEntry middleware/example.js
-59 silly gunzTarPerm modified mode [ 'middleware/example.js', 436, 420 ]
-60 silly gunzTarPerm extractEntry middleware/spa-ignore-assets.js
-61 silly gunzTarPerm modified mode [ 'middleware/spa-ignore-assets.js', 436, 420 ]
-62 silly gunzTarPerm extractEntry middleware/spa.js
-63 silly gunzTarPerm modified mode [ 'middleware/spa.js', 436, 420 ]
-64 silly gunzTarPerm extractEntry CONTRIBUTING.md
-65 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
-66 silly gunzTarPerm extractEntry test/acceptance.js
-67 silly gunzTarPerm modified mode [ 'test/acceptance.js', 436, 420 ]
-68 silly gunzTarPerm extractEntry test/proxy.js
-69 silly gunzTarPerm modified mode [ 'test/proxy.js', 436, 420 ]
-70 silly gunzTarPerm extractEntry test/cors.js
-71 silly gunzTarPerm modified mode [ 'test/cors.js', 436, 420 ]
-72 silly gunzTarPerm extractEntry test/mount.js
-73 silly gunzTarPerm modified mode [ 'test/mount.js', 436, 420 ]
-74 silly gunzTarPerm extractEntry test/cli.js
-75 silly gunzTarPerm modified mode [ 'test/cli.js', 436, 420 ]
-76 silly gunzTarPerm extractEntry test/https.js
-77 silly gunzTarPerm modified mode [ 'test/https.js', 436, 420 ]
-78 silly gunzTarPerm extractEntry test/middleware.js
-79 silly gunzTarPerm modified mode [ 'test/middleware.js', 436, 420 ]
-80 silly gunzTarPerm extractEntry test/spa.js
-81 silly gunzTarPerm modified mode [ 'test/spa.js', 436, 420 ]
-82 silly gunzTarPerm extractEntry test/htpasswd.js
-83 silly gunzTarPerm modified mode [ 'test/htpasswd.js', 436, 420 ]
-84 silly gunzTarPerm extractEntry test/data/middleware.js
-85 silly gunzTarPerm modified mode [ 'test/data/middleware.js', 436, 420 ]
-86 silly gunzTarPerm extractEntry test/data/fragment.html
-87 silly gunzTarPerm modified mode [ 'test/data/fragment.html', 436, 420 ]
-88 silly gunzTarPerm extractEntry test/data/htpasswd-test
-89 silly gunzTarPerm modified mode [ 'test/data/htpasswd-test', 436, 420 ]
-90 silly gunzTarPerm extractEntry test/data/index-caps.htm
-91 silly gunzTarPerm modified mode [ 'test/data/index-caps.htm', 436, 420 ]
-92 silly gunzTarPerm extractEntry test/data/index-head.html
-93 silly gunzTarPerm modified mode [ 'test/data/index-head.html', 436, 420 ]
-94 silly gunzTarPerm extractEntry test/data/index.html
-95 silly gunzTarPerm modified mode [ 'test/data/index.html', 436, 420 ]
-96 silly gunzTarPerm extractEntry test/data/style.css
-97 silly gunzTarPerm modified mode [ 'test/data/style.css', 436, 420 ]
-98 silly gunzTarPerm extractEntry test/data/sub/sub.html
-99 silly gunzTarPerm modified mode [ 'test/data/sub/sub.html', 436, 420 ]
-100 silly gunzTarPerm extractEntry test/data/test.svg
-101 silly gunzTarPerm modified mode [ 'test/data/test.svg', 436, 420 ]
-102 silly gunzTarPerm extractEntry test/conf/https.conf.js
-103 silly gunzTarPerm modified mode [ 'test/conf/https.conf.js', 436, 420 ]
-104 silly gunzTarPerm extractEntry test/conf/server.cert
-105 silly gunzTarPerm modified mode [ 'test/conf/server.cert', 436, 420 ]
-106 silly gunzTarPerm extractEntry test/conf/server.key
-107 silly gunzTarPerm modified mode [ 'test/conf/server.key', 436, 420 ]
-108 silly lockFile 3a5d677e-812059-0-675776377087459-package tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package
-109 silly lockFile 3a5d677e-812059-0-675776377087459-package tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package
-110 silly lockFile 0dc65a79-812059-0-675776377087459-tmp-tgz tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/tmp.tgz
-111 silly lockFile 0dc65a79-812059-0-675776377087459-tmp-tgz tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/tmp.tgz
-112 verbose tar pack [ '/home/sibi/.npm/live-server/1.2.0/package.tgz',
-112 verbose tar pack   '/home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package' ]
-113 verbose tarball /home/sibi/.npm/live-server/1.2.0/package.tgz
-114 verbose folder /home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package
-115 silly lockFile 3a5d677e-812059-0-675776377087459-package tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package
-116 verbose lock tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package /home/sibi/.npm/3a5d677e-812059-0-675776377087459-package.lock
-117 silly lockFile 2ec16f6d-pm-live-server-1-2-0-package-tgz tar:///home/sibi/.npm/live-server/1.2.0/package.tgz
-118 verbose lock tar:///home/sibi/.npm/live-server/1.2.0/package.tgz /home/sibi/.npm/2ec16f6d-pm-live-server-1-2-0-package-tgz.lock
-119 silly lockFile 3a5d677e-812059-0-675776377087459-package tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package
-120 silly lockFile 3a5d677e-812059-0-675776377087459-package tar:///home/sibi/tmp/npm-14668-AdNSrk6c/1494106812059-0.675776377087459/package
-121 silly lockFile 2ec16f6d-pm-live-server-1-2-0-package-tgz tar:///home/sibi/.npm/live-server/1.2.0/package.tgz
-122 silly lockFile 2ec16f6d-pm-live-server-1-2-0-package-tgz tar:///home/sibi/.npm/live-server/1.2.0/package.tgz
-123 silly lockFile 044c9101-bi-npm-live-server-1-2-0-package /home/sibi/.npm/live-server/1.2.0/package
-124 verbose lock /home/sibi/.npm/live-server/1.2.0/package /home/sibi/.npm/044c9101-bi-npm-live-server-1-2-0-package.lock
-125 silly lockFile 044c9101-bi-npm-live-server-1-2-0-package /home/sibi/.npm/live-server/1.2.0/package
-126 silly lockFile 044c9101-bi-npm-live-server-1-2-0-package /home/sibi/.npm/live-server/1.2.0/package
-127 verbose tar unpack /home/sibi/.npm/live-server/1.2.0/package.tgz
-128 silly lockFile e84e0951-bi-npm-live-server-1-2-0-package tar:///home/sibi/.npm/live-server/1.2.0/package
-129 verbose lock tar:///home/sibi/.npm/live-server/1.2.0/package /home/sibi/.npm/e84e0951-bi-npm-live-server-1-2-0-package.lock
-130 silly lockFile 2ec16f6d-pm-live-server-1-2-0-package-tgz tar:///home/sibi/.npm/live-server/1.2.0/package.tgz
-131 verbose lock tar:///home/sibi/.npm/live-server/1.2.0/package.tgz /home/sibi/.npm/2ec16f6d-pm-live-server-1-2-0-package-tgz.lock
-132 silly gunzTarPerm modes [ '755', '644' ]
-133 silly gunzTarPerm extractEntry package.json
-134 silly gunzTarPerm extractEntry .npmignore
-135 silly gunzTarPerm extractEntry README.md
-136 silly gunzTarPerm extractEntry index.js
-137 silly gunzTarPerm extractEntry live-server.js
-138 silly gunzTarPerm extractEntry .travis.yml
-139 silly gunzTarPerm extractEntry injected.html
-140 silly gunzTarPerm extractEntry CONTRIBUTING.md
-141 silly gunzTarPerm extractEntry middleware/example.js
-142 silly gunzTarPerm extractEntry middleware/spa-ignore-assets.js
-143 silly gunzTarPerm extractEntry middleware/spa.js
-144 silly gunzTarPerm extractEntry .editorconfig
-145 silly gunzTarPerm extractEntry test/acceptance.js
-146 silly gunzTarPerm extractEntry test/proxy.js
-147 silly gunzTarPerm extractEntry test/cors.js
-148 silly gunzTarPerm extractEntry test/mount.js
-149 silly gunzTarPerm extractEntry test/cli.js
-150 silly gunzTarPerm extractEntry test/https.js
-151 silly gunzTarPerm extractEntry test/middleware.js
-152 silly gunzTarPerm extractEntry test/spa.js
-153 silly gunzTarPerm extractEntry test/htpasswd.js
-154 silly gunzTarPerm extractEntry test/data/middleware.js
-155 silly gunzTarPerm extractEntry test/data/fragment.html
-156 silly gunzTarPerm extractEntry test/data/htpasswd-test
-157 silly gunzTarPerm extractEntry test/data/index-caps.htm
-158 silly gunzTarPerm extractEntry test/data/index-head.html
-159 silly gunzTarPerm extractEntry test/data/index.html
-160 silly gunzTarPerm extractEntry test/data/style.css
-161 silly gunzTarPerm extractEntry test/data/sub/sub.html
-162 silly gunzTarPerm extractEntry test/data/test.svg
-163 silly gunzTarPerm extractEntry test/conf/https.conf.js
-164 silly gunzTarPerm extractEntry test/conf/server.cert
-165 silly gunzTarPerm extractEntry test/conf/server.key
-166 silly lockFile e84e0951-bi-npm-live-server-1-2-0-package tar:///home/sibi/.npm/live-server/1.2.0/package
-167 silly lockFile e84e0951-bi-npm-live-server-1-2-0-package tar:///home/sibi/.npm/live-server/1.2.0/package
-168 silly lockFile 2ec16f6d-pm-live-server-1-2-0-package-tgz tar:///home/sibi/.npm/live-server/1.2.0/package.tgz
-169 silly lockFile 2ec16f6d-pm-live-server-1-2-0-package-tgz tar:///home/sibi/.npm/live-server/1.2.0/package.tgz
-170 verbose chmod /home/sibi/.npm/live-server/1.2.0/package.tgz 644
-171 verbose chown /home/sibi/.npm/live-server/1.2.0/package.tgz [ 1001, 1001 ]
-172 silly lockFile c7f48c5a-ive-server-live-server-1-2-0-tgz https://registry.npmjs.org/live-server/-/live-server-1.2.0.tgz
-173 silly lockFile c7f48c5a-ive-server-live-server-1-2-0-tgz https://registry.npmjs.org/live-server/-/live-server-1.2.0.tgz
-174 silly lockFile 1019340b-live-server-1-2-0 live-server@1.2.0
-175 silly lockFile 1019340b-live-server-1-2-0 live-server@1.2.0
-176 silly lockFile 180ee697-live-server live-server@
-177 silly lockFile 180ee697-live-server live-server@
-178 silly resolved [ { name: 'live-server',
-178 silly resolved     version: '1.2.0',
-178 silly resolved     description: 'simple development http server with live reload capability',
-178 silly resolved     keywords: [ 'front-end', 'development', 'tool', 'server', 'http', 'cli' ],
-178 silly resolved     author: { name: 'Tapio Vierros' },
-178 silly resolved     dependencies:
-178 silly resolved      { chokidar: '^1.6.0',
-178 silly resolved        colors: 'latest',
-178 silly resolved        connect: '3.5.x',
-178 silly resolved        cors: 'latest',
-178 silly resolved        'event-stream': 'latest',
-178 silly resolved        'faye-websocket': '0.11.x',
-178 silly resolved        'http-auth': '3.1.x',
-178 silly resolved        morgan: '^1.6.1',
-178 silly resolved        'object-assign': 'latest',
-178 silly resolved        opn: 'latest',
-178 silly resolved        'proxy-middleware': 'latest',
-178 silly resolved        send: 'latest',
-178 silly resolved        'serve-index': '^1.7.2' },
-178 silly resolved     devDependencies:
-178 silly resolved      { mocha: '^3.2.0',
-178 silly resolved        supertest: '^2.0.1',
-178 silly resolved        eslint: '^3.13.0',
-178 silly resolved        jshint: '^2.9.2' },
-178 silly resolved     scripts:
-178 silly resolved      { lint: 'eslint live-server.js index.js',
-178 silly resolved        hint: 'jshint live-server.js index.js',
-178 silly resolved        test: 'mocha test && npm run lint' },
-178 silly resolved     bin: { 'live-server': './live-server.js' },
-178 silly resolved     repository: { type: 'git', url: 'https://github.com/tapio/live-server.git' },
-178 silly resolved     engines: { node: '>=0.10.0' },
-178 silly resolved     preferGlobal: true,
-178 silly resolved     license: 'MIT',
-178 silly resolved     eslintConfig: { env: [Object], rules: [Object] },
-178 silly resolved     readme: '[![view on npm](http://img.shields.io/npm/v/live-server.svg)](https://www.npmjs.org/package/live-server)\n[![npm module downloads per month](http://img.shields.io/npm/dm/live-server.svg)](https://www.npmjs.org/package/live-server)\n[![build status](https://travis-ci.org/tapio/live-server.svg)](https://travis-ci.org/tapio/live-server)\n\nLive Server\n===========\n\nThis is a little development server with live reload capability. Use it for hacking your HTML/JavaScript/CSS files, but not for deploying the final site.\n\nThere are two reasons for using this:\n\n1. AJAX requests don\'t work with the `file://` protocol due to security restrictions, i.e. you need a server if your site fetches content through JavaScript.\n2. Having the page reload automatically after changes to files can accelerate development.\n\nYou don\'t need to install any browser plugins or manually add code snippets to your pages for the reload functionality to work, see "How it works" section below for more information. If you don\'t want/need the live reload, you should probably use something even simpler, like the following Python-based one-liner:\n\n\tpython -m SimpleHTTPServer\n\n\nInstallation\n------------\n\nYou need node.js and npm. You should probably install this globally.\n\n**Npm way**\n\n\tnpm install -g live-server\n\n**Manual way**\n\n\tgit clone https://github.com/tapio/live-server\n\tcd live-server\n\tnpm install # Local dependencies if you want to hack\n\tnpm install -g # Install globally\n\n\nUsage from command line\n-----------------------\n\nIssue the command `live-server` in your project\'s directory. Alternatively you can add the path to serve as a command line parameter.\n\nThis will automatically launch the default browser. When you make a change to any file, the browser will reload the page - unless it was a CSS file in which case the changes are applied without a reload.\n\nCommand line parameters:\n\n* `--port=NUMBER` - select port to use, default: PORT env var or 8080\n* `--host=ADDRESS` - select host address to bind to, default: IP env var or 0.0.0.0 ("any address")\n* `--no-browser` - suppress automatic web browser launching\n* `--browser=BROWSER` - specify browser to use instead of system default\n* `--quiet | -q` - suppress logging\n* `--verbose | -V` - more logging (logs all requests, shows all listening IPv4 interfaces, etc.)\n* `--open=PATH` - launch browser to PATH instead of server root\n* `--watch=PATH` - comma-separated string of paths to exclusively watch for changes (default: watch everything)\n* `--ignore=PATH` - comma-separated string of paths to ignore ([anymatch](https://github.com/es128/anymatch)-compatible definition)\n* `--ignorePattern=RGXP` - Regular expression of files to ignore (ie `.*\\.jade`) (**DEPRECATED** in favor of `--ignore`)\n* `--middleware=PATH` - path to .js file exporting a middleware function to add; can be a name without path nor extension to reference bundled middlewares in `middleware` folder\n* `--entry-file=PATH` - serve this file (server root relative) in place of missing files (useful for single page apps)\n* `--mount=ROUTE:PATH` - serve the paths contents under the defined route (multiple definitions possible)\n* `--spa` - translate requests from /abc to /#/abc (handy for Single Page Apps)\n* `--wait=MILLISECONDS` - (default 100ms) wait for all changes, before reloading\n* `--htpasswd=PATH` - Enables http-auth expecting htpasswd file located at PATH\n* `--cors` - Enables CORS for any origin (reflects request origin, requests with credentials are supported)\n* `--https=PATH` - PATH to a HTTPS configuration module\n* `--proxy=ROUTE:URL` - proxy all requests for ROUTE to URL\n* `--help | -h` - display terse usage hint and exit\n* `--version | -v` - display version and exit\n\nDefault options:\n\nIf a file `~/.live-server.json` exists it will be loaded and used as default options for live-server on the command line. See "Usage from node" for option names.\n\n\nUsage from node\n---------------\n\n```javascript\nvar liveServer = require("live-server");\n\nvar params = {\n\tport: 8181, // Set the server port. Defaults to 8080.\n\thost: "0.0.0.0", // Set the address to bind to. Defaults to 0.0.0.0 or process.env.IP.\n\troot: "/public", // Set root directory that\'s being served. Defaults to cwd.\n\topen: false, // When false, it won\'t load your browser by default.\n\tignore: \'scss,my/templates\', // comma-separated string for paths to ignore\n\tfile: "index.html", // When set, serve this file for every 404 (useful for single-page applications)\n\twait: 1000, // Waits for all changes, before reloading. Defaults to 0 sec.\n\tmount: [[\'/components\', \'./node_modules\']], // Mount a directory to a route.\n\tlogLevel: 2, // 0 = errors only, 1 = some, 2 = lots\n\tmiddleware: [function(req, res, next) { next(); }] // Takes an array of Connect-compatible middleware that are injected into the server middleware stack\n};\nliveServer.start(params);\n```\n\nHTTPS\n---------------\n\nIn order to enable HTTPS support, you\'ll need to create a configuration module.\nThe module must export an object that will be used to configure a HTTPS server.\nThe keys are the same as the keys in `options` for [tls.createServer](https://nodejs.org/api/tls.html#tls_tls_createserver_options_secureconnectionlistener).\n\nFor example:\n```javascript\nvar fs = require("fs");\n\nmodule.exports = {\n\tcert: fs.readFileSync(__dirname + "/server.cert"),\n\tkey: fs.readFileSync(__dirname + "/server.key"),\n\tpassphrase: "12345"\n};\n```\n\nIf using the node API, you can also directly pass a configuration object instead of a path to the module.\n\n\nTroubleshooting\n---------------\n\n* No reload on changes\n\t* Open your browser\'s console: there should be a message at the top stating that live reload is enabled. Note that you will need a browser that supports WebSockets. If there are errors, deal with them. If it\'s still not working, [file an issue](https://github.com/tapio/live-server/issues).\n* Error: watch <PATH> ENOSPC\n\t* See [this suggested solution](http://stackoverflow.com/questions/22475849/node-js-error-enospc/32600959#32600959).\n* Reload works but changes are missing or outdated\n\t* Try using `--wait=MS` option. Where `MS` is time in milliseconds to wait before issuing a reload.\n\nHow it works\n------------\n\nThe server is a simple node app that serves the working directory and its subdirectories. It also watches the files for changes and when that happens, it sends a message through a web socket connection to the browser instructing it to reload. In order for the client side to support this, the server injects a small piece of JavaScript code to each requested html file. This script establishes the web socket connection and listens to the reload requests. CSS files can be refreshed without a full page reload by finding the referenced stylesheets from the DOM and tricking the browser to fetch and parse them again.\n\n\nContributing\n------------\n\nWe welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.\n\n\nVersion history\n---------------\n\n* v1.2.0\n\t- Add `--middleware` parameter to use external middlewares\n\t- `middleware` API parameter now also accepts strings similar to `--middleware`\n\t- Changed file watcher to improve speed (@pavel)\n\t- `--ignore` now accepts regexps and globs, `--ignorePattern` deprecated (@pavel)\n\t- Added `--verbose` cli option (logLevel 3) (@pavel)\n\t\t- Logs all requests, displays warning when can\'t inject html file, displays all listening IPv4 interfaces...\n\t- HTTPS configuration now also accepts a plain object (@pavel)\n\t- Move `--spa` to a bundled middleware file\n\t- New bundled `spa-no-assets` middleware that works like `spa` but ignores requests with extension\n\t- Allow multiple `--open` arguments (@PirtleShell)\n\t- Inject to `head` if `body` not found (@pmd1991)\n\t- Update dependencies\n* v1.1.0\n\t- Proxy support (@pavel)\n\t- Middleware support (@achandrasekar)\n\t- Dependency updates (@tapio, @rahatarmanahmed)\n\t- Using Travis CI\n* v1.0.0\n\t- HTTPS support (@pavel)\n\t- HTTP Basic authentication support (@hey-johnnypark)\n\t- CORS support (@pavel)\n\t- Support mounting single files (@pavel)\n\t- `--spa` cli option for single page apps, translates requests from /abc to /#/abc (@evanplaice)\n\t- Check `IP` env var for default host (@dotnetCarpenter)\n\t- Fix `ignorePattern` from config file (@cyfersystems)\n\t- Fix test running for Windows (@peterhull90)\n* v0.9.2\n\t- Updated most dependencies to latest versions\n\t- `--quiet` now silences warning about injection failure\n\t- Giving explicit `--watch` paths now disables adding mounted paths to watching\n* v0.9.1\n\t- `--ignorePattern=RGXP` exclude files from watching by regexp (@psi-4ward)\n\t- `--watch=PATH` cli option to only watch given paths\n* v0.9.0\n\t- `--mount=ROUTE:PATH` cli option to specify alternative routes to paths (@pmentz)\n\t- `--browser=BROWSER` cli option to specify browser to use (@sakiv)\n\t- Improved error reporting\n\t- Basic support for injecting the reload code to SVG files (@dotnetCarpenter, @tapio)\n\t- LiveServer.shutdown() function to close down the server and file watchers\n\t- If host parameter is given, use it for browser URL instead of resolved IP\n\t- Initial testing framework (@harrytruong, @evanplaice, @tapio)\n* v0.8.2\n\t- Load initial settings from `~/.live-server.json` if exists (@mikker)\n\t- Allow `--port=0` to select random port (@viqueen)\n\t- Fix injecting when file extension is not lower case (@gusgard)\n\t- Fail gracefully if browser does not support WebSockets (@mattymaloney)\n\t- Switched to a more maintained browser opening library\n* v0.8.1\n\t- Add `--version / -v` command line flags to display version\n\t- Add `--host` cli option to mirror the API parameter\n\t- Once again use 127.0.0.1 instead of 0.0.0.0 as the browser URL\n* v0.8.0\n\t- Support multiple clients simultaneously (@dvv)\n\t- Pick a random available port if the default is in use (@oliverzy, @harrytruong)\n\t- Fix Chrome sometimes not applying CSS changes (@harrytruong)\n\t- `--ignore=PATH` cli option to not watch given server root relative paths (@richardgoater)\n\t- `--entry-file=PATH` cli option to specify file to use when request is not found (@izeau)\n\t- `--wait=MSECS` cli option to wait specified time before reloading (@leolower, @harrytruong)\n* v0.7.1\n\t- Fix hang caused by trying to inject into fragment html files without `</body>`\n\t- `logLevel` parameter in library to control amount of console spam\n\t- `--quiet` cli option to suppress console spam\n\t- `--open=PATH` cli option to launch browser in specified path instead of root (@richardgoater)\n\t- Library\'s `noBrowser: true` option is deprecated in favor of `open: false`\n* v0.7.0\n\t- API BREAKAGE: LiveServer library now takes parameters in an object\n\t- Add possibility to specify host to the lib\n\t- Only inject to host page when working with web components (e.g. Polymer) (@davej)\n\t- Open browser to 127.0.0.1, as 0.0.0.0 has issues\n\t- `--no-browser` command line flag to suppress browser launch\n\t- `--help` command line flag to display usage\n* v0.6.4\n\t- Allow specifying port from the command line: `live-server --port=3000` (@Pomax)\n\t- Don\'t inject script as the first thing so that DOCTYPE remains valid (@wmira)\n\t- Be more explicit with listening to all interfaces (@inadarei)\n* v0.6.3\n\t- Fix multiple _cacheOverride parameters polluting css requests\n\t- Don\'t create global variables in the injected script\n* v0.6.2\n\t- Fix a deprecation warning from `send`\n* v0.6.1\n\t- Republish to fix npm troubles\n* v0.6.0\n\t- Support for using as node library (@dpgraham)\n* v0.5.0\n\t- Watching was broken with new versions of `watchr` > 2.3.3\n\t- Added some logging to console\n* v0.4.0\n\t- Allow specifying directory to serve from command line\n* v0.3.0\n\t- Directory listings\n* v0.2.0\n\t- On-the-fly CSS refresh (no page reload)\n\t- Refactoring\n* v0.1.1\n\t- Documentation and meta tweaks\n* v0.1.0\n\t- Initial release\n\n\nLicense\n-------\n\nUses MIT licensed code from [Connect](https://github.com/senchalabs/connect/) and  [Roots](https://github.com/jenius/roots).\n\n(MIT License)\n\nCopyright (c) 2012 Tapio Vierros\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
-178 silly resolved     readmeFilename: 'README.md',
-178 silly resolved     bugs: { url: 'https://github.com/tapio/live-server/issues' },
-178 silly resolved     _id: 'live-server@1.2.0',
-178 silly resolved     dist: { shasum: '1da39cad357959fc70e72287f9bb46f5c3ea274f' },
-178 silly resolved     _from: 'live-server@',
-178 silly resolved     _resolved: 'https://registry.npmjs.org/live-server/-/live-server-1.2.0.tgz' } ]
-179 info install live-server@1.2.0 into /usr/local/lib
-180 info installOne live-server@1.2.0
-181 info /usr/local/lib/node_modules/live-server unbuild
-182 verbose tar unpack /home/sibi/.npm/live-server/1.2.0/package.tgz
-183 silly lockFile a5a979dc-cal-lib-node-modules-live-server tar:///usr/local/lib/node_modules/live-server
-184 verbose lock tar:///usr/local/lib/node_modules/live-server /home/sibi/.npm/a5a979dc-cal-lib-node-modules-live-server.lock
-185 silly lockFile 2ec16f6d-pm-live-server-1-2-0-package-tgz tar:///home/sibi/.npm/live-server/1.2.0/package.tgz
-186 verbose lock tar:///home/sibi/.npm/live-server/1.2.0/package.tgz /home/sibi/.npm/2ec16f6d-pm-live-server-1-2-0-package-tgz.lock
-187 silly gunzTarPerm modes [ '755', '644' ]
-188 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
-188 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
-188 error   errno: 3,
-188 error   code: 'EACCES',
-188 error   path: '/usr/local/lib/node_modules',
-188 error   fstream_type: 'Directory',
-188 error   fstream_path: '/usr/local/lib/node_modules/live-server',
-188 error   fstream_class: 'DirWriter',
-188 error   fstream_stack:
-188 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
-188 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
-188 error      'Object.oncomplete (fs.js:107:15)' ] }
-189 error Please try running this command again as root/Administrator.
-190 error System Linux 3.13.0-115-generic
-191 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "live-server"
-192 error cwd /home/sibi/workspace/rsibi.github.io
-193 error node -v v0.10.25
-194 error npm -v 1.3.10
-195 error path /usr/local/lib/node_modules
-196 error fstream_path /usr/local/lib/node_modules/live-server
-197 error fstream_type Directory
-198 error fstream_class DirWriter
-199 error code EACCES
-200 error errno 3
-201 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
-202 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
-202 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
-202 error fstream_stack Object.oncomplete (fs.js:107:15)
-203 verbose exit [ 3, true ]
+45 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+48 silly gunzTarPerm extractEntry .travis.yml
+49 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+50 silly gunzTarPerm extractEntry .babelrc
+51 silly gunzTarPerm modified mode [ '.babelrc', 438, 420 ]
+52 silly gunzTarPerm extractEntry .publishrc
+53 silly gunzTarPerm modified mode [ '.publishrc', 438, 420 ]
+54 silly gunzTarPerm extractEntry .codeclimate.yml
+55 silly gunzTarPerm modified mode [ '.codeclimate.yml', 438, 420 ]
+56 silly gunzTarPerm extractEntry .eslintignore
+57 silly gunzTarPerm modified mode [ '.eslintignore', 438, 420 ]
+58 silly gunzTarPerm extractEntry dist/gitu.js
+59 silly gunzTarPerm modified mode [ 'dist/gitu.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry src/gitu.js
+61 silly gunzTarPerm modified mode [ 'src/gitu.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry .eslintrc
+63 silly gunzTarPerm modified mode [ '.eslintrc', 438, 420 ]
+64 silly gunzTarPerm extractEntry readme.md
+65 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+66 silly gunzTarPerm extractEntry yarn.lock
+67 silly gunzTarPerm modified mode [ 'yarn.lock', 438, 420 ]
+68 silly lockFile 43798e17-39309-0-2879486922174692-package tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package
+69 silly lockFile 43798e17-39309-0-2879486922174692-package tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package
+70 silly lockFile d70472d1-39309-0-2879486922174692-tmp-tgz tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/tmp.tgz
+71 silly lockFile d70472d1-39309-0-2879486922174692-tmp-tgz tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/tmp.tgz
+72 verbose tar pack [ '/home/sibi/.npm/git-upload/1.1.2/package.tgz',
+72 verbose tar pack   '/home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package' ]
+73 verbose tarball /home/sibi/.npm/git-upload/1.1.2/package.tgz
+74 verbose folder /home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package
+75 silly lockFile 43798e17-39309-0-2879486922174692-package tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package
+76 verbose lock tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package /home/sibi/.npm/43798e17-39309-0-2879486922174692-package.lock
+77 silly lockFile bfa25791-npm-git-upload-1-1-2-package-tgz tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz
+78 verbose lock tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz /home/sibi/.npm/bfa25791-npm-git-upload-1-1-2-package-tgz.lock
+79 silly lockFile 43798e17-39309-0-2879486922174692-package tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package
+80 silly lockFile 43798e17-39309-0-2879486922174692-package tar:///home/sibi/tmp/npm-15926--BL3ETTQ/1494201639309-0.2879486922174692/package
+81 silly lockFile bfa25791-npm-git-upload-1-1-2-package-tgz tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz
+82 silly lockFile bfa25791-npm-git-upload-1-1-2-package-tgz tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz
+83 silly lockFile 3e8b8410-ibi-npm-git-upload-1-1-2-package /home/sibi/.npm/git-upload/1.1.2/package
+84 verbose lock /home/sibi/.npm/git-upload/1.1.2/package /home/sibi/.npm/3e8b8410-ibi-npm-git-upload-1-1-2-package.lock
+85 silly lockFile 3e8b8410-ibi-npm-git-upload-1-1-2-package /home/sibi/.npm/git-upload/1.1.2/package
+86 silly lockFile 3e8b8410-ibi-npm-git-upload-1-1-2-package /home/sibi/.npm/git-upload/1.1.2/package
+87 verbose tar unpack /home/sibi/.npm/git-upload/1.1.2/package.tgz
+88 silly lockFile f2306054-ibi-npm-git-upload-1-1-2-package tar:///home/sibi/.npm/git-upload/1.1.2/package
+89 verbose lock tar:///home/sibi/.npm/git-upload/1.1.2/package /home/sibi/.npm/f2306054-ibi-npm-git-upload-1-1-2-package.lock
+90 silly lockFile bfa25791-npm-git-upload-1-1-2-package-tgz tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz
+91 verbose lock tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz /home/sibi/.npm/bfa25791-npm-git-upload-1-1-2-package-tgz.lock
+92 silly gunzTarPerm modes [ '755', '644' ]
+93 silly gunzTarPerm extractEntry package.json
+94 silly gunzTarPerm extractEntry .npmignore
+95 silly gunzTarPerm extractEntry LICENSE
+96 silly gunzTarPerm extractEntry .travis.yml
+97 silly gunzTarPerm extractEntry .babelrc
+98 silly gunzTarPerm extractEntry .publishrc
+99 silly gunzTarPerm extractEntry .codeclimate.yml
+100 silly gunzTarPerm extractEntry .eslintignore
+101 silly gunzTarPerm extractEntry dist/gitu.js
+102 silly gunzTarPerm extractEntry .eslintrc
+103 silly gunzTarPerm extractEntry readme.md
+104 silly gunzTarPerm extractEntry src/gitu.js
+105 silly gunzTarPerm extractEntry yarn.lock
+106 silly lockFile f2306054-ibi-npm-git-upload-1-1-2-package tar:///home/sibi/.npm/git-upload/1.1.2/package
+107 silly lockFile f2306054-ibi-npm-git-upload-1-1-2-package tar:///home/sibi/.npm/git-upload/1.1.2/package
+108 silly lockFile bfa25791-npm-git-upload-1-1-2-package-tgz tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz
+109 silly lockFile bfa25791-npm-git-upload-1-1-2-package-tgz tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz
+110 verbose chmod /home/sibi/.npm/git-upload/1.1.2/package.tgz 644
+111 verbose chown /home/sibi/.npm/git-upload/1.1.2/package.tgz [ 1001, 1001 ]
+112 silly lockFile e2725831--git-upload-git-upload-1-1-2-tgz https://registry.npmjs.org/git-upload/-/git-upload-1.1.2.tgz
+113 silly lockFile e2725831--git-upload-git-upload-1-1-2-tgz https://registry.npmjs.org/git-upload/-/git-upload-1.1.2.tgz
+114 silly lockFile bc98d2e9-git-upload-1-1-2 git-upload@1.1.2
+115 silly lockFile bc98d2e9-git-upload-1-1-2 git-upload@1.1.2
+116 silly lockFile 300042e1-git-upload git-upload@
+117 silly lockFile 300042e1-git-upload git-upload@
+118 silly resolved [ { name: 'git-upload',
+118 silly resolved     version: '1.1.2',
+118 silly resolved     description: 'gitu MSG = git add . && git commit -m MSG && git push',
+118 silly resolved     keywords: [ 'gitu', 'git', 'add', 'push', 'commit' ],
+118 silly resolved     homepage: 'https://github.com/yxliang01/git-upload.git',
+118 silly resolved     bin: { gitu: 'dist/gitu.js', 'git-upload': 'dist/gitu.js' },
+118 silly resolved     scripts:
+118 silly resolved      { build: 'babel src --out-dir dist',
+118 silly resolved        'publish-please': 'publish-please',
+118 silly resolved        prepublish: 'publish-please guard' },
+118 silly resolved     preferGlobal: true,
+118 silly resolved     bugs: { url: 'https://github.com/yxliang01/git-upload/issues' },
+118 silly resolved     repository:
+118 silly resolved      { type: 'git',
+118 silly resolved        url: 'https://github.com/yxliang01/git-upload.git' },
+118 silly resolved     author: { name: 'Xiao Liang Yu' },
+118 silly resolved     license: 'MIT',
+118 silly resolved     devDependencies:
+118 silly resolved      { 'babel-cli': '^6.18.0',
+118 silly resolved        'babel-plugin-add-module-exports': '^0.2.1',
+118 silly resolved        'babel-preset-es2015': '^6.18.0',
+118 silly resolved        'publish-please': '^2.2.0' },
+118 silly resolved     dependencies: { assert: '^1.4.1', colors: '^1.1.2', figlet: '^1.2.0' },
+118 silly resolved     readme: 'Git-Upload\r\n=====\r\n\r\n[![Build Status](https://travis-ci.org/yxliang01/git-upload.svg?branch=master)](https://travis-ci.org/yxliang01/git-upload)\r\n[![Dependency Status](https://david-dm.org/yxliang01/git-upload.svg)]()\r\n[![Code Climate](https://codeclimate.com/github/yxliang01/git-upload/badges/gpa.svg)](https://codeclimate.com/github/yxliang01/git-upload)\r\n[![NSP Status](https://nodesecurity.io/orgs/git-upload/projects/1cee5cb2-7bd7-4909-b25b-6cb6634e75f3/badge)](https://nodesecurity.io/orgs/git-upload/projects/1cee5cb2-7bd7-4909-b25b-6cb6634e75f3)\r\n[![npm version](https://badge.fury.io/js/git-upload.svg)](https://badge.fury.io/js/git-upload)\r\n\r\nSave your time everyday\r\n\r\nGit-Upload saves your time by removing the need to type three most common git modification upload commands `git add .`, `git commit` and `git push`\r\n\r\nTo install:\r\n```bash\r\nnpm install -g git-upload\r\n```\r\n\r\nTo Use:\r\n```bash\r\n# Go to your git repository (via cd) \r\n\r\ngitu MSG\r\n\r\n# Wait for prompts\r\n# When it has finished, it will prompt you "done!"\r\n```\r\n\r\n<!-- To install manually(for developing purpose):\r\n```bash\r\n\r\n``` -->\r\n\r\n\r\n`gitu MSG` = `git add . && git commit -m MSG && git push`\r\n',
+118 silly resolved     readmeFilename: 'readme.md',
+118 silly resolved     _id: 'git-upload@1.1.2',
+118 silly resolved     dist: { shasum: '2b2bc62f9b04ad481bb0676eefc1d2db99c0aae9' },
+118 silly resolved     _from: 'git-upload@',
+118 silly resolved     _resolved: 'https://registry.npmjs.org/git-upload/-/git-upload-1.1.2.tgz' } ]
+119 info install git-upload@1.1.2 into /usr/local/lib
+120 info installOne git-upload@1.1.2
+121 info /usr/local/lib/node_modules/git-upload unbuild
+122 verbose tar unpack /home/sibi/.npm/git-upload/1.1.2/package.tgz
+123 silly lockFile 45e3697d-ocal-lib-node-modules-git-upload tar:///usr/local/lib/node_modules/git-upload
+124 verbose lock tar:///usr/local/lib/node_modules/git-upload /home/sibi/.npm/45e3697d-ocal-lib-node-modules-git-upload.lock
+125 silly lockFile bfa25791-npm-git-upload-1-1-2-package-tgz tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz
+126 verbose lock tar:///home/sibi/.npm/git-upload/1.1.2/package.tgz /home/sibi/.npm/bfa25791-npm-git-upload-1-1-2-package-tgz.lock
+127 silly gunzTarPerm modes [ '755', '644' ]
+128 error Error: EACCES, mkdir '/usr/local/lib/node_modules/git-upload'
+128 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/git-upload']
+128 error   errno: 3,
+128 error   code: 'EACCES',
+128 error   path: '/usr/local/lib/node_modules/git-upload',
+128 error   fstream_type: 'Directory',
+128 error   fstream_path: '/usr/local/lib/node_modules/git-upload',
+128 error   fstream_class: 'DirWriter',
+128 error   fstream_stack:
+128 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+128 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+128 error      'Object.oncomplete (fs.js:107:15)' ] }
+129 error Please try running this command again as root/Administrator.
+130 error System Linux 3.13.0-115-generic
+131 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "git-upload"
+132 error cwd /home/sibi/workspace/rsibi.github.io
+133 error node -v v0.10.25
+134 error npm -v 1.3.10
+135 error path /usr/local/lib/node_modules/git-upload
+136 error fstream_path /usr/local/lib/node_modules/git-upload
+137 error fstream_type Directory
+138 error fstream_class DirWriter
+139 error code EACCES
+140 error errno 3
+141 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/git-upload'
+142 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+142 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+142 error fstream_stack Object.oncomplete (fs.js:107:15)
+143 verbose exit [ 3, true ]
