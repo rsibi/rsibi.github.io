@@ -1,15 +1,19 @@
 ---
 layout: default
-modal-id: 2
-title: Digit Recognition using Deep Learning
+modal-id: 3
+title: West Nile Virus Prediction
 date: 2014-07-18
-img: idea.png
+img: virus.png
 alt: image-alt
-project-date: February 2017
-category: Data Science
-tools: Python, H20 (Deep Learning Framework)
+project-date: August to December 2017
+category: Machine Learning
+tools: Python (pandas, scikitlearn, seaborn)
 github-link: <a href="https://github.com/rsibi/digit-recognition-h20">Github Link</a>
-description: Deep Learning using the <a href="https://www.h2o.ai/download/">H20 Package</a> to classify digits in the MNIST dataset.
-             Even the most basic solution leads to a 96% accuracy in Kaggle.
-
+description: A project aimed at analyzing data on mosquito traps laid to curtail the spread of
+            the West Nile Virus in Chicago. Along with the weather data, clear patterns emerged
+            about the conditions in which the virus thrives.
+            <br><br>
+            A predictive model using Random Forests
+            was developed to indicate the areas in which Chicago health department should concentrate to reduce
+            spending on laying traps.
 ---

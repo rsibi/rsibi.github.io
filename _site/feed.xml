@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2017-05-07T19:00:40-05:00</updated>
+  <updated>2017-05-09T13:04:25-05:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -88,12 +88,12 @@
     </entry>
   
     <entry>
-      <title type="html">Digit Recognition using Deep Learning</title>
-      <link href="http://localhost:4000/data%20science/2014/07/18/project-3/" rel="alternate" type="text/html" title="Digit Recognition using Deep Learning" />
+      <title type="html">West Nile Virus Prediction</title>
+      <link href="http://localhost:4000/machine%20learning/2014/07/18/project-3/" rel="alternate" type="text/html" title="West Nile Virus Prediction" />
       <published>2014-07-18T00:00:00-05:00</published>
       <updated>2014-07-18T00:00:00-05:00</updated>
-      <id>http://localhost:4000/data%20science/2014/07/18/project-3</id>
-      <content type="html" xml:base="http://localhost:4000/data%20science/2014/07/18/project-3/"></content>
+      <id>http://localhost:4000/machine%20learning/2014/07/18/project-3</id>
+      <content type="html" xml:base="http://localhost:4000/machine%20learning/2014/07/18/project-3/"></content>
 
       
       
@@ -108,7 +108,7 @@
       </author>
 
       
-        <category term="Data Science" />
+        <category term="Machine Learning" />
       
 
       
