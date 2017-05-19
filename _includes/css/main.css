@@ -258,6 +258,7 @@ section.success {
     color: #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
+
 }
 
 .btn-outline:hover,
@@ -362,6 +363,8 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
+
+
 }
 
 .scroll-top {
@@ -382,7 +385,7 @@ footer .footer-below {
 }
 
 .scroll-top .btn:focus {
-    outline: 0;
+    outline: 1;
 }
 
 .portfolio-modal .modal-content {
