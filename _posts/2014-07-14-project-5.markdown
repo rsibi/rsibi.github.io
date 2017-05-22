@@ -7,11 +7,11 @@ img: presentation.png
 alt: image-alt
 project-date: September to December 2016
 category: Data Science
-tools: Python (pandas, numpy), Statistics, Machine Learning 
+tools: Python (pandas, numpy), Statistics, Machine Learning
 github-link: <a href="https://github.com/rsibi/digit-recognition-h20">Github Link</a>
 description:  <p align="left"> Inferential Statistics <br> </p>
 
-              <p style="font-size:15px;" align="left">
+              <p style="font-size:17px;" align="left">
 
                   <a href="https://github.com/rsibi/Springboard/blob/master/Inferential%20Statistics/statistics%20project%201/sliderule_dsi_inferential_statistics_exercise_1.ipynb">Human Body Temperature</a> - hypothesis testing and statistical significance. <br>
 
@@ -20,9 +20,9 @@ description:  <p align="left"> Inferential Statistics <br> </p>
                   <a href="https://github.com/rsibi/Springboard/blob/master/Inferential%20Statistics/statistics%20project%203/sliderule_dsi_inferential_statistics_exercise_3.ipynb"> Reducing Hospital Readmissions</a> - statistical analysis to reduce readmissions.
               </p>
 
-               <p align="left"> Exploring Machine Learning Algorithms <br> </p>
+               <p align="left"> Machine Learning <br> </p>
 
-               <p style="font-size:15px;" align="left">
+               <p style="font-size:17px;" align="left">
 
                   <a href="https://github.com/rsibi/Springboard/blob/master/Machine%20Learning/clustering/Mini_Project_Clustering.ipynb">Customer Segmentation in Python</a> - exploring k-means clustering <br>
 
