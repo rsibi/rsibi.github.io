@@ -6,7 +6,7 @@ date: 2014-07-18
 img: loan.png
 alt: image-alt
 project-date: August to December 2016
-category: Predict Analytics
+category: Predictive Analytics
 tools: R, Machine Learning
 github-link: <a href="/data/4_Report.pdf">Report</a>
 description: Completed this project as a part of the course "Applied Predictive Analytics for Business" at Texas A&M. In

@@ -1,12 +1,14 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: submarine.png
+title: Data for Democracy
+date: 2014-07-18
+img: d4d.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+project-date: January 2017 till present
+category: Predictive Analytics
+tools: Python, Data Collection
+github-link: <a href="https://github.com/Data4Democracy/educational-hub">Education Hub</a>
+description: An active volunteer at <a href="datafordemocracy.org">Data for Democracy</a>. I am an analyst advocate for the
+             USA Dashboard project and also contribute to the Educational Hub project.
 ---

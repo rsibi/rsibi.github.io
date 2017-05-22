@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2017-05-22T17:13:59-05:00</updated>
+  <updated>2017-05-22T17:19:45-05:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -123,11 +123,11 @@
   
     <entry>
       <title type="html">Predicting Loan Defaults for Lending Club</title>
-      <link href="http://localhost:4000/predict%20analytics/2014/07/18/project-4/" rel="alternate" type="text/html" title="Predicting Loan Defaults for Lending Club" />
+      <link href="http://localhost:4000/predictive%20analytics/2014/07/18/project-4/" rel="alternate" type="text/html" title="Predicting Loan Defaults for Lending Club" />
       <published>2014-07-18T00:00:00-05:00</published>
       <updated>2014-07-18T00:00:00-05:00</updated>
-      <id>http://localhost:4000/predict%20analytics/2014/07/18/project-4</id>
-      <content type="html" xml:base="http://localhost:4000/predict%20analytics/2014/07/18/project-4/"></content>
+      <id>http://localhost:4000/predictive%20analytics/2014/07/18/project-4</id>
+      <content type="html" xml:base="http://localhost:4000/predictive%20analytics/2014/07/18/project-4/"></content>
 
       
       
@@ -142,7 +142,7 @@
       </author>
 
       
-        <category term="Predict Analytics" />
+        <category term="Predictive Analytics" />
       
 
       
@@ -190,12 +190,12 @@
     </entry>
   
     <entry>
-      <title type="html">Project 6</title>
-      <link href="http://localhost:4000/web%20development/2014/07/15/project-6/" rel="alternate" type="text/html" title="Project 6" />
-      <published>2014-07-15T00:00:00-05:00</published>
-      <updated>2014-07-15T00:00:00-05:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/15/project-6</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/15/project-6/"></content>
+      <title type="html">Data for Democracy</title>
+      <link href="http://localhost:4000/predictive%20analytics/2014/07/18/project-6/" rel="alternate" type="text/html" title="Data for Democracy" />
+      <published>2014-07-18T00:00:00-05:00</published>
+      <updated>2014-07-18T00:00:00-05:00</updated>
+      <id>http://localhost:4000/predictive%20analytics/2014/07/18/project-6</id>
+      <content type="html" xml:base="http://localhost:4000/predictive%20analytics/2014/07/18/project-6/"></content>
 
       
       
@@ -210,7 +210,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Predictive Analytics" />
       
 
       
