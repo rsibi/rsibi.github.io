@@ -5,7 +5,7 @@ title: West Nile Virus Prediction
 date: 2014-07-18
 img: virus.png
 alt: image-alt
-project-date: August to December 2017
+project-date: January to April 2017
 category: Machine Learning
 tools: Python (pandas, scikitlearn, seaborn)
 github-link: <a href="https://github.com/rsibi/digit-recognition-h20">Github Link</a>
